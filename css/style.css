@@ -1,0 +1,53 @@
+body{
+    background:black;
+    font-family: Arial;
+    padding: 0px;
+    margin: 0px;
+    min-height: 100vh;
+}
+
+.nav ul{
+    list-style: none;
+    background: whitesmoke;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.nav li{
+    display: inline-block;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    display: block;
+    padding: 25px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+.nav a:hover{
+    color: crimson;
+}
+
+p {
+    color: cornsilk;
+    font-family: Helvetica;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+footer{
+    position: sticky;
+    top: 100%;
+    background: whitesmoke;
+    color: black;
+    padding: 15px;
+    text-align: center;
+}
+
+    
